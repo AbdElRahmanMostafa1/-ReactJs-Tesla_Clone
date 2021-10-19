@@ -1,0 +1,86 @@
+.screen {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-transform: capitalize;
+  position: relative;
+  scroll-snap-align: center;
+}
+
+.screen .model-name {
+  padding-top: 7%;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.screen .order-online {
+  font-size: 1.6rem;
+}
+
+.screen .order-online > a {
+  text-decoration: underline;
+}
+
+.screen .model-name, .screen .order-online, .screen .btn-wrapper {
+  color: #333222;
+  text-align: center;
+}
+
+.screen .btn-wrapper {
+  padding-top: 23%;
+}
+
+.screen .btn-wrapper button {
+  width: 22rem;
+  height: 4rem;
+  text-transform: uppercase;
+  margin: 0 3rem;
+  border-radius: 3rem;
+  border: transparent;
+  opacity: .75;
+  cursor: pointer;
+  background-color: #DFDBDB;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: .3s;
+  opacity: .75;
+}
+
+.screen .btn-wrapper button:hover {
+  background-color: #34353A;
+  color: white;
+  opacity: .75;
+}
+
+.screen .btn-wrapper button:first-child {
+  background-color: #34353A;
+  color: white;
+  opacity: .75;
+}
+
+.screen .btn-wrapper button:first-child:hover {
+  background-color: #DFDBDB;
+  color: inherit;
+}
+
+.down-arrow {
+  animation: downArrow 1s linear infinite;
+  font-size: 5rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@keyframes downArrow {
+  0%, 100% {
+    transform: translate(-50%, .5rem);
+  }
+  50% {
+    transform: translate(-50%, 0);
+  }
+  75% {
+    transform: translate(-50%, 1rem);
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
