@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css';
-import logo from './assets/teslaLogoSmall.svg';
+import logo from '../assets/teslaLogoSmall.svg';
 
 const Nav = () => {
   return (

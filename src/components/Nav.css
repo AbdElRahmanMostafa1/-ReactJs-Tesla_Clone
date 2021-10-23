@@ -23,10 +23,6 @@
   padding: .5rem 1.5rem;
 }
 
-.nav ul:first-child li a {
-  color: green;
-}
-
 .nav ul li a:hover {
   background: rgba(255, 255, 255, 0.25);
   border-radius: .75rem;
